@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--NavBar-->
+
+    <header id="nav-menu" aria-label="navigation bar">
+      <div class="container">
+        <div class="nav-start">
+          <a class="logo" href="index.html">
+            <img
+              src="logostarlight.png"
+              width="160"
+              height="160"
+              alt="Inc Logo"
+            />
+          </a>
+          <nav class="menu">
+            <ul class="menu-bar">
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown1"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="browse"
+                >
+                  Sezoane
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown1" class="dropdown">
+                  <ul role="menu">
+                    <li role="menuitem"></li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#illustrations">
+                        Into The Deep #9
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown2"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                  Echipa
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown2" class="dropdown">
+                  <ul role="menu">
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="echipaRO.html">Membrii</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#illustrations"
+                        >Povestea Noastra</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="nav-link" href="/">Premii</a></li>
+              <li><a class="nav-link" href="/">Roboti</a></li>
+              <li><a class="nav-link" href="contact.html">Contact</a></li>
+              <li><a class="nav-link" href="#section1">Sponsori</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <button
+          id="hamburger"
+          aria-label="hamburger"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <i class="bx bx-menu" aria-hidden="true"></i>
+        </button>
+      </div>
+    </header>
+
+    <!--TextEchipa-->
+
+    <!-- <div class="containertextintroductiv">
+      <div class="container1">
+        <div class="h1textintroductiv">
+          <h2 style="margin-bottom: 0.5rem">Cine Suntem?</h2>
+          Noi suntem echipa Star Light din Pitești a, echipa a Colegiului
+          Național “Alexandru Odobescu” , înființată la data de 13 mai, la
+          sfarsitul sezonului POWERPLAY (2023), in off-seazon-ul sezonului
+          CENTERSTAGE.
+        </div>
+      </div>
+      <div class="container2">
+        <div class="h1textintroductiv">Imagine</div>
+      </div>
+    </div> -->
+
+    <div class="containerechipa">
+      <div class="titlunume">Membrii</div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Michu.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Mihai Diaconu
+              <br />->Peer Mentor
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Eu sunt Mihai Diaconu! Sunt unul dintre peer-mentori echipei. Înainte activam în departamentul
+              de programare, dar cu o ușoară înclinație spre modelare și
+              asamblare 3D. Pentru mine, robotica înseamna o ușă deschisă pentru
+              noi orizonturi.
+
+              <button
+                class="butonigMichu"
+                onclick="window.location.href = 'https://www.instagram.com/adr0xd_/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@adr0xd_
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Maria.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Maria Podea <br />->Peer Mentor
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              David are rolul de mechanic in echipa, este in drive team si este
+              alaturi de noi din momentul infiintarii echipei!
+              <button
+                class="butonigMaria"
+                onclick="window.location.href = 'https://www.instagram.com/yasmina23maria/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@yasmina23maria
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Shobi.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Șerban Andrei (aka Shobi) <br />->Team Leader
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Am 18 ani, sunt mecanic și social media manager, dar reușesc să
+              ajut toți colegii din toate departamentele. Fac parte din FTC de 2
+              ani.În acest sezon mi-am propus să mă distrez, să-mi fac mai mulți
+              prieteni.
+              <button
+                class="butonigShobi"
+                onclick="window.location.href = 'https://www.instagram.com/serban_andrei__/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@serban_andrei_
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('poza\ iulia\ v2.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Berevoianu Iulia
+              <br />->Non-Tehnical Lead
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Hello! Numele meu este Iulia, am 16 ani și sunt în clasa a XI-a la Colegiul Național “Alexandru Odobescu” Pitești. În cadrul echipei ma ocup cu departamentele non-tehnice, iar cel mai mult îmi place să mă ocup de grafică.🌟
+
+              <button
+                class="butonigIulia"
+                onclick="window.location.href = 'https://www.instagram.com/berevoianu_iulia/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@berevoianu_iulia
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Angelo.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Deaconu Mihai (aka Angelo) <br />-> 3D Designer&Coach
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Bună! Mă numesc Deaconu Anghel Mihai și sunt elev în clasa a 12-a
+              la Colegiul Național "Alexandru Odobescu". Fac parte din
+              departamentele de Design 3D și Mecanică.
+              <button
+                class="butonigAngelo"
+                onclick="window.location.href = 'https://www.instagram.com/da.alex7/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@da.alex7
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Bucur.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Bucur Andrei <br />-> Programmer&Driver
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Mă numesc Andrei, am 17 ani și fac parte din departamentul de
+              Programare și Mecanică. Sunt pasionat de matematică și de
+              biciclete. Am o experiență de 1 an în FTC.
+              <button
+                class="butonigBucur"
+                onclick="window.location.href = 'https://www.instagram.com/02andrei04/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@02andrei04
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Strut.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              David Georgescu (aka Struț) <br />-> Mechanic&Human Player
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Salut! Ma numesc David, am  rolul de mechanic in echipa, sunt in drive team. Am experienta de 1 an in FTC si sunt 
+              alaturi colegii mei din momentul infiintarii echipei!
+              <button
+                class="butonigStrut"
+                onclick="window.location.href = 'https://www.instagram.com/david_st56/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@david_st56
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Rebeca.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Rebeca Vasile
+              <br />-> Mechanic& 3D Designer
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              David are rolul de mechanic in echipa, este in drive team si este
+              alaturi de noi din momentul infiintarii echipei!
+              <button
+                class="butonigRebeca"
+                onclick="window.location.href = 'https://www.instagram.com/_rebeeca___/';" >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@_rebeeca___
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Tufa.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Elena Sima (aka Tufă)
+              <br />-> PR&Marketing&Design
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Bună! Mă numesc Elena, am 18 ani și sunt clasa a 12-a la Colegiul
+              Național "Alexandru Odobescu" din Pitești. În echipă mă ocup cel
+              mai mult de departamentele de design și PR.
+              <button
+                class="butonigTufa"
+                onclick="window.location.href = 'https://www.instagram.com/tufaabb/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@tufaabb
+                
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Antonia.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Antonia Gheorghiță (aka Antoina)<br />-> Design
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Eu sunt Antonia Gheorghiță, mi se zice Antoina, și fac parte din
+              echipa StarLight Robotics. Sunt clasa a 12-a si m-am înscris în
+              echipă din dorința de a dobândi experinență într-un
+              nou domeniu fascinant pentru mine, robotica.
+              <button
+                class="butonigAntoina"
+                onclick="window.location.href = 'https://www.instagram.com/antoniasiatwt/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@antoniasiatwt
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Speedy.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Andrei Florescu (aka Speedy) <br />-> Mechanic
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Mă numesc Andrei și am 18 ani. Fac parte din departamentul de
+              Mecanică. Sunt în programul FTC din sezonul PowerPlay. Încerc să
+              mă dezvolt și să învăț lucruri noi.
+              <button
+                class="butonigSpeedy"
+                onclick="window.location.href = 'https://www.instagram.com/_speedy05/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@_speedy05
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Luci.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Bucurel Lucian
+              <br />-> Design
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Pe plan social sunt o persoană cooperantă care are abilități
+              teoretice și practice bine puse la punct. Un foarte bun ascultător
+              care mereu caută soluții și care vrea să își depășească condiția.
+              <button
+                class="butonigLuci"
+                onclick="window.location.href = 'https://www.instagram.com/lvcimf/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@lvcimf
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('RObyy.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Robert Raicu (aka Robby) <br />-> Mechanic
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              David are rolul de mechanic in echipa, este in drive team si este
+              alaturi de noi din momentul infiintarii echipei!
+              <button
+                class="butonigRobby"
+                onclick="window.location.href = 'https://www.instagram.com/r0b._.3rt/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@r0b._.3rt
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('DavidStroiuleanu.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              David Stroiuleasa
+              <br />-> Mechanic
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Pasionat de robotică și atras de competițiile acestei științe, îmi dedic timpul proiectării și construirii roboților competitivi. Entuziasmat de inovație și colaborare in echipa, lucrez cu dedicatie pentru a obține performanțe remarcabile.
+              <button
+                class="butonigDavid"
+                onclick="window.location.href = 'https://www.instagram.com/davidstroiuleasa/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@davidstroiuleasa
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('exemplu.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">Fata Noua-1 <br />-></div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              David are rolul de mechanic in echipa, este in drive team si este
+              alaturi de noi din momentul infiintarii echipei!
+              <button
+                class="butonig"
+                onclick="window.location.href = 'https://www.instagram.com/david_st56/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@david_st56
+              </button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('exemplu.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">Fata Noua-2<br />-></div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              David are rolul de mechanic in echipa, este in drive team si este
+              alaturi de noi din momentul infiintarii echipei!
+              <button
+                class="butonig"
+                onclick="window.location.href = 'https://www.instagram.com/david_st56/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@david_st56
+              </button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="containerechipa">
+      <div class="titlunume">Mentori</div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Veve.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Diaconu Veronica
+              <br />->Mentor
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Ca mentor, încerc să ofer o viziune de ansamblu asupra lucrurilor
+              printr-o îndrumare tehnică riguroasă, folosind principii de bază
+              ale fizicii și matematicii.
+              <button
+                class="butonig"
+                onclick="window.location.href = 'https://www.instagram.com/diaconu_veronica13/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@diaconu_veronica13
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Adi.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Diaconu Adrian <br />->Mentor
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Sunt unul dinte mentorii echipei Star Light Robotics, preocupat de
+              învățare continuă, de cultivarea abilităților de a relaționa și de
+              a oferi încredere tinerilor să își atingă performanțele.
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('Voro.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Daniel Vorovenci <br />->Mentor/Vizitator
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              Salutare! Mă numesc Daniel Vorovenci, reprezint Colegiul Național
+              ”Alexandru Odobescu” din Pitești în calitate de director și am
+              devenit mentor oficial al acestei echipei în 2024.
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="containerechipa">
+      <div class="titlunume">Voluntari</div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('exemplu.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Mihai Diaconu
+              <br />->Peer Mentor
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              David are rolul de mechanic in echipa, este in drive team si este
+              alaturi de noi din momentul infiintarii echipei!
+              <button
+                class="butonig"
+                onclick="window.location.href = 'https://www.instagram.com/david_st56/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@david_st56
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('exemplu.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Maria Podea <br />->Peer Mentor
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              David are rolul de mechanic in echipa, este in drive team si este
+              alaturi de noi din momentul infiintarii echipei!
+              <button
+                class="butonigmaria"
+                onclick="window.location.href = 'https://www.instagram.com/yasmina23maria/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@david_st56
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scene scene--card" style="width: 270px; height: 270px">
+        <div class="card">
+          <div
+            class="card__face card__face--front"
+            style="
+              background-image: url('exemplu.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="containerechipatext">
+              Șerban Andrei (aka Shobi) <br />->Team Leader
+            </div>
+          </div>
+          <div class="card__face card__face--back">
+            <div class="containerdescriere">
+              David are rolul de mechanic in echipa, este in drive team si este
+              alaturi de noi din momentul infiintarii echipei!
+              <button
+                class="butonig"
+                onclick="window.location.href = 'https://www.instagram.com/david_st56/';"
+              >
+                <img
+                  style="height: 30px; width: 30px; margin-right: 5px"
+                  src="ig.svg"
+                  alt=""
+                />@david_st56
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!--Footer-->
+
+    <div class="containerfooter">
+      <div id="footer">
+        <p class="left">
+          Colegiul Național ”Alexandru Odobescu” - Pitesti/Romania
+        </p>
+        <p class="right">
+          Schimbati Limba: <br />
+          <a
+            style="
+              color: white;
+              text-decoration: underline;
+              text-decoration-color: white;
+            "
+            ;
+            href="index.html"
+            >Romana/</a
+          >
+          <a style="color: white" href="engleza.html">Engleza</a>
+        </p>
+      </div>
+    </div>
+
+    <!--Java-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
